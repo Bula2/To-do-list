@@ -46,8 +46,8 @@ function addItem(){
 
 function changeBack(){
     let back = document.body;
-    if (back.style.backgroundImage !== 'url("ToDoList602/img/2.jpg")')
-        back.style.backgroundImage = 'url("ToDoList602/img/2.jpg")';
+    if (back.style.backgroundImage !== 'url("https://github.com/Bula2/ToDoList602/blob/main/img/2.jpg?raw=true")')
+        back.style.backgroundImage = 'url("https://github.com/Bula2/ToDoList602/blob/main/img/2.jpg?raw=true")';
     else
         back.style.backgroundImage = "linear-gradient(to right, #dc1a98, #01b7d7, #348cd5)";
 }
